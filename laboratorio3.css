@@ -1,0 +1,60 @@
+.laboratorio__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.laboratorio__title {
+  font-family: 'Mansalva', cursive;
+  font-size: 3rem;
+}
+
+.laboratorio__panel {
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.laboratorio__description {
+  font-family: 'Lato', serif;
+  margin-bottom: 0;
+}
+
+.laboratorio__main_font {
+  font-family: 'Lato', sans-serif;
+}
+
+.laboratorio__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.laboratorio__form input {
+  border-radius: 4px;
+  height: 1rem;
+}
+
+.laboratorio__form label {
+  font-size: 1.4rem;
+}
+
+.laboratorio__form button {
+  margin-left: auto;
+  width: 20%;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.laboratorio__form button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.p-y-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.m-y-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
